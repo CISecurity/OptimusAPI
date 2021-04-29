@@ -1,21 +1,19 @@
 # List Available Benchmarks
 
-## Endpoint
-
-```
-
-/benchmarks
-
-```
-
-## Request Type
-GET
-
 ## Description
 Publicly available, a request to this endpoint returns a JSON array of basic information for every published benchmark that is currently tracked by this API.
 
 ## Visibility
 Public
+
+## Endpoint
+
+```
+/benchmarks
+```
+
+## Request Type
+GET
 
 ## Request Payload/Parameters
 None
@@ -24,9 +22,7 @@ None
 ### Media Type
 
 ```
-
 application/json
-
 ```
 
 ### Description/Fields
@@ -50,7 +46,6 @@ The response payload is a JSON array of objects noting basic information about a
 ### Example
 
 ``` 
-
 {
   [
     {
@@ -82,5 +77,4 @@ The response payload is a JSON array of objects noting basic information about a
     }
   ]
 }
-
  ```

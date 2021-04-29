@@ -1,36 +1,29 @@
 # API: SecureSuite Member License Verification
 
-Link to API Design in Swagger: https://app.swaggerhub.com/apis/cis-sbp/securesuite-license-ciscat/1
+## Description
+The body of this POST request includes the SecureSuite license key, and the backend function performs verification of the key, returning back to the caller a token (generated based on the license key) for future use. The token will be stored for future authorization purposes and to track a time limit for its usage.
+
+## Visibility
+SecureSuite Members Only
 
 ## Endpoint
 
 ```
-
 /license
-
 ```
 
 ## Request Type
 POST
 
-## Description
-The body of this POST request includes the SecureSuite license key, and the backend function performs verification of the key, returning back to the caller a token (generated based on the license key) for future use. The token will be stored for future authorization purposes and to track a time limit for its usage.
-
-## Visibility
-Member Only
-
 ## Request Payload/Parameters
 The request body will contain the SecureSuite member license key, in either XML or JSON form.
 
-## 
-
 ```
-
 <securesuite_member_license>
-    <uuid>efe343b8-ca58-432b-af1d-336ba365ef07</uuid>
+    <uuid>d2e343b8-ca58-432b-af1d-336ba365ef07</uuid>
     <license_key>
         --- START CIS LICENSE KEY ---
-        eyJ0eXAiOiJqd3QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJDSVMgTElDRU5TRSBLRVkiLCJqdGkiOiJ
+        ABCD123iOiJqd3QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJDSVMgTElDRU5TRSBLRVkiLCJqdGkiOiJ
         lZmUzNDNiOC1jYTU4LTQzMmItYWYxZC0zMzZiYTM2NWVmMDciLCJpYXQiOjE1ODEzMTA4MDAsImV4cCI
         6MTY3NjAwNTIwMCwibmFtZSI6IkNJUyIsImRvbWFpbiI6ImNpc2VjdXJpdHkub3JnIn0.EW1DFihmKx0
         i8fV_jRrTVhV1nS1YWXfbso_2w8-sL-P6lx4vPIPK220wj7WvX385tIA4fKWxehEi70zVSjUEsTuUO35
@@ -70,16 +63,13 @@ The request body will contain the SecureSuite member license key, in either XML 
         --- END CIS LICENSE KEY ---
     </license_key>
 </securesuite_member_license>
-
 ```
 
 ## Response Payload
 ### Media Type
 
 ```
-
 application/json
-
 ```
 
 ### Description/Fields
@@ -91,10 +81,8 @@ Successful validation of the SecureSuite license key will result in the response
 
 ### Example
 ```
-
 {
   "token": "7b68c544503bc43458f747ebff4f2bb61358ff74bb7f254e39c4a842cefed748"
 }
-
 ```
  

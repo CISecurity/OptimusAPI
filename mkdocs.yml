@@ -1,0 +1,14 @@
+site_name: Optimus Artifact Expressions (Artifact Type and Test Type Combinations)
+nav:
+   - "Home": index.md
+   - "ObtainLicense": ObtainLicense.md
+   - "LicenseVerification": LicenseVerification.md
+   - "ListAvailableBenchmarks": ListAvailableBenchmarks.md
+   - "DownloadBenchmarkContent": DownloadBenchmarkContent.md
+   - "ListAvailableVersions": ListAvailableVersions.md
+   - "DownloadCIS-CATFull": DownloadCIS-CATFull.md
+   - "DownloadCIS-CATLite": DownloadCIS-CATLite.md
+
+   - "Change Log": Change Log.md
+theme:
+  name: readthedocs

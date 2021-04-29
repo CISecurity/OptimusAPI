@@ -1,21 +1,19 @@
 # List Available Versions
 
-## Endpoint
-
-```
-
-/cis-cat/versions
-
-```
-
-## Request Type
-GET
-
 ## Description
 As the name of this page suggests, this API endpoint responds with the list of currently available CIS-CAT versions.
 
 ## Visibility
 Public
+
+## Endpoint
+
+```
+/cis-cat/versions
+```
+
+## Request Type
+GET
 
 ## Request Payload/Parameters
 None
@@ -24,9 +22,7 @@ None
 ### Media Type
 
 ```
-
 application/json
-
 ```
 
 ## Description/Fields
@@ -42,7 +38,6 @@ The response payload is simply a JSON array of strings representing the versions
 ## Response Example
 
 ```
-
 {
   "full": [
     {
@@ -193,5 +188,4 @@ The response payload is simply a JSON array of strings representing the versions
     }
   ]
 }
-
 ```

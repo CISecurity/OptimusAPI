@@ -1,16 +1,5 @@
 # Download Benchmark Content
 
-## Endpoint
-
-```
-
-/{workbenchId}/{format}
-
-```
-
-## Request Type
-GET
-
 ## Description
 This API endpoint allows for the retrieval and download of benchmark content.  When an active, valid member utilizes a Bearer Token for authorization to this endpoint, any content formats are allowed to be obtained.  If the member fails to provide a valid token, an error will be returned.  A token will need to be provided/generated for testing purposes.
 
@@ -20,14 +9,25 @@ This API endpoint allows for the retrieval and download of benchmark content.  W
 * 500 Response code for internal server error.
 
 ## Visibility
-Member Only
+SecureSuite Members Only
+
+## Endpoint
+
+```
+/{workbenchId}/{format}
+```
+
+## Request Type
+GET
 
 ## Request Payload/Parameters
 ### Request Header(s)
 
+In order to provide download authorization, members must first authenticate their license key using the /license endpoint, described at API: SecureSuite Member License Verification .  The response from that endpoint is a token.
+
 | Header Name           | Description |
 | ----------------------|------------ |
-| X-SecureSuite=Token | This header value is required for member-only requests and contains the valid SecureSuite token received as the response when invoking the /license endpoint. |
+| X-SecureSuite-Token | This header value is required for member-only requests and contains the valid SecureSuite token received as the response when invoking the /license endpoint. |
 
 ### URL Parameters
 
@@ -48,9 +48,7 @@ Member Only
 ### Media Type
 
 ```
-
 application/zip
-
 ```
 
 ## Description/Fields

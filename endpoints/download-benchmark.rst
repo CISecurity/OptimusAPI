@@ -15,7 +15,7 @@ Endpoint
 
 .. code-block::
 
-	/benchmark/{workbenchId}/{format}
+	/benchmarks/{workbenchId}/{format}
 
 Request Payload/Parameters
 --------------------------
@@ -42,7 +42,7 @@ URL Parameters
 	* - workbenchId
 	  - The unique identifier for a specific benchmark as stored in CIS WorkBench.
 	* - format
-	  - The format of the content being requested; one of: "JSON", "SCAP", "YAML", or "XCCDF+AE"
+	  - The format of the content being requested; one of: "JSON", "SCAP", "YAML", or "XCCDFPLUSAE"
 
 Response Payload
 ----------------

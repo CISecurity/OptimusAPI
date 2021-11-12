@@ -34,4 +34,5 @@ The "Contributing" section provides details on how you can contribute to the dev
    Download Benchmark Content <endpoints/download-benchmark>
    List Available CIS-CAT Versions <endpoints/cis-cat-versions>
    Download CIS-CAT Pro Assessor <endpoints/cis-cat-pro>
+   Download CIS-CAT Pro Assessor <endpoints/cis-cat-full>
    Download CIS-CAT Lite <endpoints/cis-cat-lite>

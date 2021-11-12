@@ -15,7 +15,7 @@ Endpoint
 
 .. code-block::
 
-	/cis-cat/pro/{version}
+	/cis-cat/full/latest
 
 Request Payload/Parameters
 --------------------------

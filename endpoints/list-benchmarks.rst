@@ -60,37 +60,36 @@ Description/Fields
 Response Example
 ^^^^^^^^^^^^^^^^
 .. code-block:: json
-
 	{
-		[
-			{
-				"workbenchId": "1234", 
-				"benchmarkTitle": "CIS Microsoft Windows 10 Enterprise Release 2004 Benchmark", 
-				"benchmarkVersion": "1.9.1", 
-				"benchmarkStatus": {
-					"statusDate": "10-20-2020", 
-					"status": "accepted"
-				}, 
-				"availableFormats": [
-					"SCAP", 
-					"XCCDF+AE", 
-					"YAML", 
-					"JSON"
-				]
-			}, 
-			{
-				"workbenchId": "2000", 
-				"benchmarkTitle": "CIS Apache Tomcat 9 Benchmark", 
-				"benchmarkVersion": "1.9.1", 
-				"benchmarkStatus": {
-					"statusDate": "12-14-2020", 
-					"status": "accepted"
-				},
-				"availableFormats": [
-					"SCAP"
-				]
-			}
-		]
+	  [
+	    {
+	      "workbenchId": "1234", 
+	      "benchmarkTitle": "CIS Microsoft Windows 10 Enterprise Release 2004 Benchmark", 
+	      "benchmarkVersion": "1.9.1", 
+	      "benchmarkStatus": {
+	        "statusDate": "10-20-2020", 
+	        "status": "accepted"
+	      }, 
+	      "availableFormats": [
+	        "SCAP", 
+	        "XCCDF+AE", 
+	        "YAML", 
+	        "JSON"
+	      ]
+	    }, 
+	    {
+	      "workbenchId": "2000", 
+	      "benchmarkTitle": "CIS Apache Tomcat 9 Benchmark", 
+	      "benchmarkVersion": "1.9.1", 
+	      "benchmarkStatus": {
+	        "statusDate": "12-14-2020", 
+	        "status": "accepted"
+	      },
+	      "availableFormats": [
+	        "SCAP"
+	      ]
+	    }
+	  ]
 	}
 
 

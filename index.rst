@@ -36,3 +36,6 @@ The "Contributing" section provides details on how you can contribute to the dev
    Download CIS-CAT Pro Assessor <endpoints/cis-cat-pro>
    Download CIS-CAT Pro Assessor <endpoints/cis-cat-full>
    Download CIS-CAT Lite <endpoints/cis-cat-lite>
+   Download CIS-CAT Pro Assessor Latest Version <endpoints/cis-cat-pro-latest>
+   Download CIS-CAT Pro Assessor Latest Version <endpoints/cis-cat-full-latest>
+   Download CIS-CAT Lite Latest Version <endpoints/cis-cat-lite-latest>

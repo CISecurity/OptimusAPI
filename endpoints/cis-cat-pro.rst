@@ -13,7 +13,7 @@ The “CIS-CAT Pro Assessor” endpoint allows SecureSuite members to obtain any
 Endpoint
 --------
 
-.. code-block::
+::
 
 	/cis-cat/pro/{version}
 
@@ -50,7 +50,7 @@ Response Payload
 Media Type
 ^^^^^^^^^^
 
-.. code-block::
+::
 
 	/application/zip
 

@@ -1,6 +1,6 @@
-Download CIS-CAT Pro Assessor
+Download the Latest CIS-CAT Pro Assessor
 =========================================================
-The “CIS-CAT Pro Assessor” endpoint allows SecureSuite members to obtain any released “full functionality” version of CIS-CAT.
+The “CIS-CAT Pro Assessor Latest” endpoint allows SecureSuite members to obtain the latest “full functionality” version of CIS-CAT.
 
 .. list-table::
 	:header-rows: 1
@@ -13,7 +13,7 @@ The “CIS-CAT Pro Assessor” endpoint allows SecureSuite members to obtain any
 Endpoint
 --------
 
-.. code-block::
+::
 
 	/cis-cat/pro/latest
 
@@ -34,14 +34,7 @@ Request Headers
 
 URL Parameters
 ^^^^^^^^^^^^^^
-
-.. list-table::
-	:header-rows: 1
-
-	* - URL Parameter
-	  - Description
-	* - version
-	  - The version number identifier for the CIS-CAT Lite Assessor bundle to be downloaded, e.g. “4.1.0”
+N/A
 
 Response Payload
 ----------------
@@ -50,7 +43,7 @@ Response Payload
 Media Type
 ^^^^^^^^^^
 
-.. code-block::
+::
 
 	/application/zip
 

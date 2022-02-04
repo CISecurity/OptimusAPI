@@ -1,6 +1,6 @@
 List Available CIS-CAT Versions
 =========================================================
-This API endpoint responds with the list of currently released and available CIS-CAT versions.  Two lists are provided in the response from this endpoint: A list of available SecureSuite member-only CIS-CAT Pro Assessor versions (indicated as the "full" version), and the list of publicly-available CIS-CAT Lite versions.
+This API endpoint responds with the list of currently released and available CIS-CAT versions.  Two lists are provided in the response from this endpoint: A list of available SecureSuite member-only CIS-CAT Pro Assessor versions (indicated as the "pro" version), and the list of publicly-available CIS-CAT Lite versions.
 
 .. list-table::
 	:header-rows: 1
@@ -13,7 +13,7 @@ This API endpoint responds with the list of currently released and available CIS
 Endpoint
 --------
 
-.. code-block::
+::
 
 	/cis-cat/versions
 
@@ -35,7 +35,7 @@ Response Payload
 
 Media Type
 ^^^^^^^^^^
-.. code-block::
+::
 
 	application/json
 
@@ -48,7 +48,7 @@ The response payload is simply a JSON array of strings representing the versions
 
 	* - Container
 	  - Description
-	* - full
+	* - pro
 	  - A JSON array containing entries which name the member-only versions of CIS-CAT Pro Assessor which are available for download
 	* - lite
 	  - A JSON array containing entries which name the lite (publicly available) versions of CIS-CAT available for download
@@ -66,25 +66,25 @@ The response payload is simply a JSON array of strings representing the versions
 Response Example
 ^^^^^^^^^^^^^^^^
 
-.. code-block:: json
+::
 
 	{
-	  "full": [
+	  "pro": [
 	    {
 	      "name": "CIS-CAT Pro Assessor v4.1.0",
-	      "path": "/cis-cat/full/4.1.0"
+	      "path": "/cis-cat/pro/4.1.0"
 	    },
 	    {
 	      "name": "CIS-CAT Pro Assessor v4.2.0",
-	      "path": "/cis-cat/full/4.2.0"
+	      "path": "/cis-cat/pro/4.2.0"
 	    },
 	    {
 	      "name": "CIS-CAT Pro Assessor v4.3.0",
-	      "path": "/cis-cat/full/4.3.0"
+	      "path": "/cis-cat/pro/4.3.0"
 	    },
 	    {
 	      "name": "CIS-CAT Pro Assessor v4.4.0",
-	      "path": "/cis-cat/full/4.4.0"
+	      "path": "/cis-cat/pro/4.4.0"
 	    }
 	  ],
 	  "lite": [

@@ -13,7 +13,7 @@ The “CIS-CAT Lite” endpoint allows both members and non-members to obtain an
 Endpoint
 --------
 
-.. code-block::
+::
 
 	/cis-cat/lite/{version}
 
@@ -42,7 +42,7 @@ Response Payload
 Media Type
 ^^^^^^^^^^
 
-.. code-block::
+::
 
 	/application/zip
 

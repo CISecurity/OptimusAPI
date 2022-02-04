@@ -1,6 +1,6 @@
-Download Latest CIS-CAT Lite
+Download the Latest CIS-CAT Lite
 =========================================================
-The “CIS-CAT Lite” endpoint allows both members and non-members to obtain the latest “lite” version of CIS-CAT.
+The “CIS-CAT Lite Latest” endpoint allows both members and non-members to obtain the latest “lite” version of CIS-CAT.
 
 .. list-table::
 	:header-rows: 1

@@ -1,6 +1,6 @@
-Download Latest CIS-CAT Pro Assessor
+Download the Latest CIS-CAT Pro Assessor
 =========================================================
-The “CIS-CAT Pro Assessor” endpoint allows SecureSuite members to obtain the latest “full functionality” version of CIS-CAT.
+The “CIS-CAT Pro Assessor Latest” endpoint allows SecureSuite members to obtain the latest “full functionality” version of CIS-CAT.
 
 .. list-table::
 	:header-rows: 1

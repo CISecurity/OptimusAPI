@@ -13,7 +13,7 @@ This API endpoint responds with the list of currently released and available CIS
 Endpoint
 --------
 
-.. code-block::
+::
 
 	/cis-cat/versions
 
@@ -35,7 +35,7 @@ Response Payload
 
 Media Type
 ^^^^^^^^^^
-.. code-block::
+::
 
 	application/json
 
@@ -66,7 +66,7 @@ The response payload is simply a JSON array of strings representing the versions
 Response Example
 ^^^^^^^^^^^^^^^^
 
-.. code-block:: json
+:: json
 
 	{
 	  "full": [

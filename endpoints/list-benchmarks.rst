@@ -13,7 +13,7 @@ Publicly available, a request to this endpoint returns a JSON array of basic inf
 Endpoint
 --------
 
-.. code-block::
+::
 
 	/benchmarks
 
@@ -35,7 +35,7 @@ The response payload is a JSON array of objects noting basic information about a
 
 Media Type
 ^^^^^^^^^^
-.. code-block::
+::
 
 	application/json
 

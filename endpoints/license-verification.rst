@@ -13,7 +13,7 @@ The body of this POST request includes the SecureSuite member's license key, and
 Endpoint
 --------
 
-.. code-block::
+::
 
 	/license
 
@@ -22,7 +22,7 @@ Request Payload/Parameters
 
 The request body will contain the SecureSuite member license key, in either XML or JSON form.
 
-.. code-block:: xml
+:: xml
 
 	<securesuite_member_license>
 	    <uuid>d2e343b8-ca58-432b-af1d-336ba365ef07</uuid>
@@ -83,7 +83,7 @@ The response from the license verification endpoint will, upon successful verifi
 
 Media Type
 ^^^^^^^^^^
-.. code-block::
+::
 
 	application/json
 
@@ -98,7 +98,7 @@ Description/Fields
 
 Response Example
 ^^^^^^^^^^^^^^^^
-.. code-block:: json
+:: json
 
 	{
 		"token": "7b68c544503bc43458f747ebff4f2bb61358ff7f787f254e39c4a842cefed748"

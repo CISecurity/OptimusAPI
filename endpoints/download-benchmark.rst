@@ -13,7 +13,7 @@ This API endpoint allows for the retrieval and download of benchmark content in 
 Endpoint
 --------
 
-.. code-block::
+::
 
 	/benchmarks/{workbenchId}/{format}
 
@@ -51,7 +51,7 @@ Response Payload
 Media Type
 ^^^^^^^^^^
 
-.. code-block::
+::
 
 	/application/zip
 

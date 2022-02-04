@@ -66,7 +66,7 @@ The response payload is simply a JSON array of strings representing the versions
 Response Example
 ^^^^^^^^^^^^^^^^
 
-:: json
+::
 
 	{
 	  "full": [

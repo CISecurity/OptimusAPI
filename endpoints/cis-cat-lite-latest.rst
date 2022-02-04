@@ -1,6 +1,6 @@
-Download CIS-CAT Lite
+Download Latest CIS-CAT Lite
 =========================================================
-The “CIS-CAT Lite” endpoint allows both members and non-members to obtain any released “lite” version of CIS-CAT.
+The “CIS-CAT Lite” endpoint allows both members and non-members to obtain the latest “lite” version of CIS-CAT.
 
 .. list-table::
 	:header-rows: 1
@@ -26,14 +26,7 @@ None
 
 URL Parameters
 ^^^^^^^^^^^^^^
-
-.. list-table::
-	:header-rows: 1
-
-	* - URL Parameter
-	  - Description
-	* - version
-	  - The version number identifier for the CIS-CAT Lite Assessor bundle to be downloaded, e.g. “4.1.0”
+N/A
 
 Response Payload
 ----------------

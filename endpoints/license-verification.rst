@@ -22,7 +22,7 @@ Request Payload/Parameters
 
 The request body will contain the SecureSuite member license key, in either XML or JSON form.
 
-:: xml
+::
 
 	<securesuite_member_license>
 	    <uuid>d2e343b8-ca58-432b-af1d-336ba365ef07</uuid>
@@ -98,7 +98,7 @@ Description/Fields
 
 Response Example
 ^^^^^^^^^^^^^^^^
-:: json
+::
 
 	{
 		"token": "7b68c544503bc43458f747ebff4f2bb61358ff7f787f254e39c4a842cefed748"

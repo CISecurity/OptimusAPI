@@ -42,7 +42,7 @@ URL Parameters
 	* - workbenchId
 	  - The unique identifier for a specific benchmark as stored in CIS WorkBench.
 	* - format
-	  - The format of the content being requested; one of: "JSON", "SCAP", "YAML", or "XCCDFPLUSAE"
+	  - The format of the content being requested; one of: "JSON", "SCAP", "YAML", "XCCDFPLUSAE", or "DATASTREAM"
 
 Response Payload
 ----------------

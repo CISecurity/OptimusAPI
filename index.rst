@@ -10,9 +10,13 @@ The main documentation for the site is organized into sections for each member A
 
 The "About the SecureSuite Member API" section provides background information about the API.
 
-The "Terms of Use" section provides the terms of use policy.
+The “Change Log” section lists releases beginning January 2022, with the newest at the top.
 
 The "Contributing" section provides details on how you can contribute to the development of the SecureSuite Member API.
+
+The "Terms of Use" section provides the terms of use policy.
+
+
 
 .. toctree::
    :maxdepth: 1
@@ -20,9 +24,10 @@ The "Contributing" section provides details on how you can contribute to the dev
    :name: api-general
 
    About the SecureSuite Member API <about/about>
+   Change Log <about/change-log>
+   Contributing <about/contributing>
    Obtaining a SecureSuite License Key <about/license>
    Terms of Use <about/terms-of-use>
-   Contributing <about/contributing>
 
 .. toctree::
    :maxdepth: 1

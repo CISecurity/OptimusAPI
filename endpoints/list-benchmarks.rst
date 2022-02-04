@@ -55,11 +55,13 @@ Description/Fields
 	* - benchmarkStatus
 	  - The current benchmark status value and date it was applied
 	* - availableFormats
-	  - A JSON array containing the available download formats, such as "JSON","SCAP", "YAML", and/or "XCCDF+AE"
+	  - A JSON array containing the available download formats, such as "JSON","SCAP", "YAML", "XCCDF+AE", and/or "DATASTREAM"
 
 Response Example
 ^^^^^^^^^^^^^^^^
-.. code-block:: json
+
+::
+
 	{
 	  [
 	    {

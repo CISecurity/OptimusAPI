@@ -1,4 +1,4 @@
-Download Benchmark
+Download Build Kit
 ==================
 This API endpoint allows for the retrieval and download of Build Kit content in a given serialization.
 
@@ -15,7 +15,7 @@ Endpoint
 
 ::
 
-	/buildkit/{workbenchId}/{format}
+	/buildkits/{workbenchId}
 
 Request Payload/Parameters
 --------------------------
@@ -40,9 +40,7 @@ URL Parameters
 	* - URL Parameter
 	  - Description
 	* - workbenchId
-	  - The unique identifier for a specific benchmark as stored in CIS WorkBench.
-	* - format
-	  - The format of the content being requested; one of: "JSON", "SCAP", "YAML", "XCCDFPLUSAE", or "DATASTREAM"
+	  - The unique identifier for a specific Build Kit as stored in CIS WorkBench.
 
 Response Payload
 ----------------
@@ -58,11 +56,11 @@ Media Type
 
 Description/Fields
 ^^^^^^^^^^^^^^^^^^
-The response payload will contain a zip bundle encapsulating the benchmark content in the requested format.
+The response payload will contain a zip bundle encapsulating the Build Kit content in the requested format.
 
 Response Example
 ^^^^^^^^^^^^^^^^
-N/A
+None
 
 
 

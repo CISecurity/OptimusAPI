@@ -37,6 +37,8 @@ The "Terms of Use" section provides the terms of use policy.
    License Verification <endpoints/license-verification>
    List Available Benchmarks <endpoints/list-benchmarks>
    Download Benchmark Content <endpoints/download-benchmark>
+   List Available Build Kits <endpoints/list-buildkits>
+   Download Build Kit <endpoints/download-buildkit>
    List Available CIS-CAT Versions <endpoints/cis-cat-versions>
    Download CIS-CAT Pro Assessor <endpoints/cis-cat-pro>
    Download CIS-CAT Pro Assessor <endpoints/cis-cat-full>

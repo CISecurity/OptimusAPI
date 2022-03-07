@@ -56,7 +56,7 @@ Media Type
 
 Description/Fields
 ^^^^^^^^^^^^^^^^^^
-The response payload will contain a zip bundle encapsulating the Build Kit content in the requested format.
+The response payload will contain a zip bundle encapsulating the Build Kit content.
 
 Response Example
 ^^^^^^^^^^^^^^^^

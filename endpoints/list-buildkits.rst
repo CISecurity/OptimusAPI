@@ -1,6 +1,6 @@
 List Available Build Kits
 =========================
-Publicly available, a request to this endpoint returns a JSON array of basic information for every published build kit that is currently tracked by this API.
+Publicly available, a request to this endpoint returns a JSON array of basic information for every published Build Kit that is currently tracked by this API.
 
 .. list-table::
 	:header-rows: 1
@@ -31,7 +31,7 @@ None
 
 Response Payload
 ----------------
-The response payload is a JSON array of objects noting basic information about all build kits, such as an ID, Benchmark Title, and Build Kit Title.
+The response payload is a JSON array of objects noting basic information about all Build Kits, such as an ID, Benchmark Title, and Build Kit Title.
 
 Media Type
 ^^^^^^^^^^
@@ -47,13 +47,13 @@ Description/Fields
 	* - Response Element
 	  - Description
 	* - workbenchId
-	  - The unique identifier for a benchmark per CIS WorkBench.  This ID can be used in subsequent requests to retrieve metadata or download benchmark content.
+	  - The unique identifier for a Build Kit per CIS WorkBench.  This ID can be used in subsequent requests to retrieve metadata or download Build Kit content.
 	* - buildKitTitle
-	  - The title of the published build kit, e.g "CIS_Microsoft_Windows_Server_2012_Benchmark_v1.0.0.zip".
+	  - The title of the published Build Kit, e.g "CIS Microsoft Windows 10 Enterprise Release 1809 Benchmark v1.6.0 - Build Kit".
 	* - benchmarkTitle
-	  - The title of the published benchmark, e.g. "CIS Microsoft Windows 10 Enterprise Release 2004 Benchmark"
+	  - The title of the published benchmark, e.g. "CIS Microsoft Windows 10 Enterprise Release 1809 Benchmark v1.6.0".
 	* - buildKit
-	  - The filename of the published build kit, e.g "CIS_Microsoft_Windows_Server_2012_Benchmark_v1.0.0.zip".
+	  - The filename of the published Build Kit, e.g "Windows10v1.6.0.zip".
 
 Response Example
 ^^^^^^^^^^^^^^^^
@@ -61,18 +61,19 @@ Response Example
 ::
 
   {
-	[
+    "Total number of results": 116,
+    "Build Kits": [
       {
-        "workbenchId": "51",
-        "buildKitTitle": "CIS_Microsoft_Windows_Server_2012_Benchmark_v1.0.0.zip",
-        "benchmarkTitle": "CIS Microsoft Windows Server 2012 Benchmark [imported]",
-        "buildKit": "CIS_Microsoft_Windows_Server_2012_Benchmark_v1.0.0.zip"
+        "workbenchId": "4177",
+        "buildKitTitle": "CIS Microsoft Windows 10 Enterprise Release 1809 Benchmark v1.6.0 - Build Kit",
+        "benchmarkTitle": "CIS Microsoft Windows 10 Enterprise Release 1809 Benchmark",
+        "buildKit": "Windows10v1.6.0.zip"
       },
       {
-        "workbenchId": "55",
-        "buildKitTitle": "CIS_Microsoft_Windows_Server_2008_R2_Remediation_Kit.zip",
-        "benchmarkTitle": "CIS Microsoft Windows Server 2008 R2 [imported]",
-        "buildKit": "CIS_Microsoft_Windows_Server_2008_R2_Remediation_Kit.zip"
+        "workbenchId": "4179",
+        "buildKitTitle": "CIS Microsoft Windows Server 2019 Benchmark v1.0.0 - Build Kit",
+        "benchmarkTitle": "CIS Microsoft Windows Server 2019 Benchmark",
+        "buildKit": "Server2019v1.0.0.zip"
       }
     ]
   }

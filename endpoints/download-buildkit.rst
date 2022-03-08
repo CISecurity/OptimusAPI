@@ -1,6 +1,6 @@
 Download Build Kit
 ==================
-This API endpoint allows for the retrieval and download of Build Kit content in a given serialization.
+This API endpoint allows SecureSuite members to obtain any released remediation content, also known as CIS Build Kits. For more information on Build Kits, go here: `CIS Build Kits FAQ <https://www.cisecurity.org/cis-securesuite/cis-securesuite-build-kit-content/build-kits-faq>`_.
 
 .. list-table::
 	:header-rows: 1

@@ -71,11 +71,9 @@ The request body will contain the SecureSuite member license key, in either XML 
 
 Request Headers
 ^^^^^^^^^^^^^^^
-None
 
 URL Parameters
 ^^^^^^^^^^^^^^
-None
 
 Response Payload
 ----------------

@@ -19,15 +19,12 @@ Endpoint
 
 Request Payload/Parameters
 --------------------------
-None
 
 Request Headers
 ^^^^^^^^^^^^^^^
-None
 
 URL Parameters
 ^^^^^^^^^^^^^^
-None
 
 Response Payload
 ----------------
@@ -47,7 +44,7 @@ Description/Fields
 	* - Response Element 
 	  - Description
 	* - workbenchId
-	  - The unique identifier for a benchmark per CIS WorkBench.  This ID can be used in subsequent requests to retrieve metadata or download benchmark content.
+	  - The unique identifier for a benchmark per CIS WorkBench.  This ID can be used in subsequent requests to download benchmark content.
 	* - benchmarkTitle
 	  - The title of the published benchmark, e.g. "CIS Microsoft Windows 10 Enterprise Release 2004 Benchmark"
 	* - benchmarkVersion
@@ -55,44 +52,87 @@ Description/Fields
 	* - benchmarkStatus
 	  - The current benchmark status value and date it was applied
 	* - availableFormats
-	  - A JSON array containing the available download formats, such as "JSON","SCAP", "YAML", "XCCDF+AE", and/or "DATASTREAM"
+	  - A JSON array containing the available download formats, such as "SCAP", "YAML", "JSON", "XCCDFPLUSAE", and/or "DATASTREAM"
+
+    * - profiles
+	  - The available profile(s) for a given benchmark.
+	* - platformId
+	  - The primary Common Platform Enumeration (CPE) for a given benchmark.
+	* - assets
+	  - All assets relevant for a given benchmark including the assetName and  assetCpe (asset specific Common Platform Enumeration (CPE)).
+	* - benchmarkUrl
+	  - The path to the benchmark in WorkBench.
+	* - ciscat
+	  - If the benchmark is supported for use with CIS-CAT Pro Assessor and the metadata is available, the applicable versions are listed here.
 
 Response Example
 ^^^^^^^^^^^^^^^^
 
 ::
 
-	{
-	  [
-	    {
-	      "workbenchId": "1234", 
-	      "benchmarkTitle": "CIS Microsoft Windows 10 Enterprise Release 2004 Benchmark", 
-	      "benchmarkVersion": "1.9.1", 
-	      "benchmarkStatus": {
-	        "statusDate": "10-20-2020", 
-	        "status": "accepted"
-	      }, 
-	      "availableFormats": [
-	        "SCAP", 
-	        "XCCDF+AE", 
-	        "YAML", 
-	        "JSON"
-	      ]
-	    }, 
-	    {
-	      "workbenchId": "2000", 
-	      "benchmarkTitle": "CIS Apache Tomcat 9 Benchmark", 
-	      "benchmarkVersion": "1.9.1", 
-	      "benchmarkStatus": {
-	        "statusDate": "12-14-2020", 
-	        "status": "accepted"
-	      },
-	      "availableFormats": [
-	        "SCAP"
-	      ]
-	    }
-	  ]
-	}
+{
+    "Total number of results": 200,
+    "Benchmarks": [
+        {
+            "workbenchId": "1234",
+            "benchmarkId": "xccdf_org.cisecurity.benchmarks_benchmark_1.2.1_CIS_Microsoft_Windows_Server_2019_Benchmark",
+            "benchmarkTitle": "CIS Microsoft Windows Server 2019 Benchmark",
+            "benchmarkVersion": "1.2.1",
+            "benchmarkStatus": {
+                "status": "accepted",
+                "statusDate": "05/18/2021"
+            },
+            "availableFormats": [
+                "SCAP",
+                "XCCDF+AE",
+                "JSON",
+                "YAML",
+                "DATASTREAM"
+            ],
+            "profiles": [
+                {
+                    "profileId": "xccdf_org.cisecurity.benchmarks_profile_Level_1_-_Domain_Controller",
+                    "profileTitle": "Level 1 - Domain Controller"
+                },
+                {
+                    "profileId": "xccdf_org.cisecurity.benchmarks_profile_Level_1_-_Member_Server",
+                    "profileTitle": "Level 1 - Member Server"
+                },
+                {
+                    "profileId": "xccdf_org.cisecurity.benchmarks_profile_Level_2_-_Domain_Controller",
+                    "profileTitle": "Level 2 - Domain Controller"
+                },
+                {
+                    "profileId": "xccdf_org.cisecurity.benchmarks_profile_Level_2_-_Member_Server",
+                    "profileTitle": "Level 2 - Member Server"
+                }
+            ],
+            "platformId": "cpe:2.3:o:microsoft:windows_server_2019:-:*:*:*:*:*:*:*",
+            "assets": [
+                {
+                    "assetName": "Microsoft Windows Server 2019",
+                    "assetCpe": "cpe:2.3:o:microsoft:windows_server_2019:-:*:*:*:*:*:*:*",
+                    "primary": "true"
+                }
+            ],
+            "benchmarkUrl": "https://workbench.cisecurity.org/benchmarks/1234",
+            "ciscat": {
+                "ciscatPro": {
+                    "proAssessmentStatus": "",
+                    "proVersions": [
+
+                    ]
+                },
+                "ciscatLite": {
+                    "liteAssessmentStatus": "",
+                    "liteVersions": [
+
+                    ]
+                }
+            }
+        }
+    ]
+}
 
 
 .. history

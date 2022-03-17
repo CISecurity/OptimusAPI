@@ -8,9 +8,13 @@ March 2022
 --------
 1. Endpoint for Build Kits added
     - Upon request to the endpoint, any specified Build Kit can be downloaded directly from the API. The Build Kits included are from the list currently available to download in WorkBench
-    - See 'List Build Kits' documentation here: `List Build Kits <https://optimusapi.readthedocs.io/en/stable/endpoints/list-buildkits/>`_.
+    - See 'List Available Build Kits' documentation here: `List Available Build Kits <https://optimusapi.readthedocs.io/en/stable/endpoints/list-buildkits/>`_.
     - See 'Download Build Kits' documentation here: `Download Build Kits <https://optimusapi.readthedocs.io/en/stable/endpoints/download-buildkit/>`_.
     - For more information on Build Kits, go here: `CIS Build Kits FAQ <https://www.cisecurity.org/cis-securesuite/cis-securesuite-build-kit-content/build-kits-faq>`_.
+2. Endpoint for PDFs added
+    - Upon request to the endpoint, any specified PDF can be downloaded directly from the API. The PDFs included are pulled from WorkBench and those we include correlate with available Benchmarks from the /benchmarks endpoint list.
+    - See 'List PDFs' documentation here: `List Available PDFs <https://optimusapi.readthedocs.io/en/stable/endpoints/list-pdf/>`_.
+    - See 'Download PDFs' documentation here `Download PDFs <https://optimusapi.readthedocs.io/en/stable/endpoints/download-pdf/>`_.
 
 
 January 2022

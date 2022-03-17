@@ -34,7 +34,7 @@ Request Headers
 
 URL Parameters
 ^^^^^^^^^^^^^^
-N/A
+None
 
 Response Payload
 ----------------
@@ -54,7 +54,7 @@ The response payload will be the zip bundle representing the requested CIS-CAT P
 
 Response Example
 ^^^^^^^^^^^^^^^^
-N/A
+None
 
 
 .. history

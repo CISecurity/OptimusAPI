@@ -19,15 +19,12 @@ Endpoint
 
 Request Payload/Parameters
 --------------------------
-None
 
 Request Headers
 ^^^^^^^^^^^^^^^
-None
 
 URL Parameters
 ^^^^^^^^^^^^^^
-None
 
 Response Payload
 ----------------
@@ -47,7 +44,7 @@ Description/Fields
 	* - Response Element
 	  - Description
 	* - workbenchId
-	  - The unique identifier for a Build Kit per CIS WorkBench.  This ID can be used in subsequent requests to retrieve metadata or download Build Kit content.
+	  - The unique identifier for a Build Kit per CIS WorkBench.  This ID can be used in subsequent requests to download Build Kit content.
 	* - buildKitTitle
 	  - The title of the published Build Kit, e.g "CIS Microsoft Windows 10 Enterprise Release 1809 Benchmark v1.6.0 - Build Kit".
 	* - benchmarkTitle

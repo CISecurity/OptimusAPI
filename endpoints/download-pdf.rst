@@ -1,11 +1,11 @@
-Download the Latest CIS-CAT Lite
-=========================================================
-The “CIS-CAT Lite Latest” endpoint allows both members and non-members to obtain the latest “lite” version of CIS-CAT.
+Download PDF
+==================
+This API endpoint allows for the retrieval and download of benchmark content in the PDF format.
 
 .. list-table::
 	:header-rows: 1
 
-	* - Request Type 
+	* - Request Type
 	  - Visibility
 	* - GET
 	  - Public
@@ -15,7 +15,7 @@ Endpoint
 
 ::
 
-	/cis-cat/lite/latest
+	/pdf/{workbenchId}
 
 Request Payload/Parameters
 --------------------------
@@ -25,6 +25,13 @@ Request Headers
 
 URL Parameters
 ^^^^^^^^^^^^^^
+.. list-table::
+	:header-rows: 1
+
+	* - URL Parameter
+	  - Description
+	* - workbenchId
+	  - The unique identifier for a specific PDF as stored in CIS WorkBench.
 
 Response Payload
 ----------------
@@ -35,16 +42,18 @@ Media Type
 
 ::
 
-	/application/zip
+	.pdf
 
 
 Description/Fields
 ^^^^^^^^^^^^^^^^^^
-The response payload will be the zip bundle representing the requested CIS-CAT Lite Assessor release version.
+The response payload will contain a PDF (.pdf) download.
 
 Response Example
 ^^^^^^^^^^^^^^^^
 None
+
+
 
 .. history
 .. authors

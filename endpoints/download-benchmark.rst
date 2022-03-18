@@ -1,4 +1,4 @@
-Download Benchmark
+Download Benchmarks
 =========================================================
 This API endpoint allows for the retrieval and download of benchmark content in a given serialization.
 

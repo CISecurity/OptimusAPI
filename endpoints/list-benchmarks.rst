@@ -55,9 +55,8 @@ Description/Fields
 	  - The current benchmark status value and date it was applied
 	* - availableFormats
 	  - A JSON array containing the available download formats, such as "SCAP", "YAML", "JSON", "XCCDFPLUSAE", and/or "DATASTREAM"
-
-    * - profiles
-	  - The available profile(s) for a given benchmark.
+	* - profile
+	  - The available profile(s) for any given benchmark.
 	* - platformId
 	  - The primary Common Platform Enumeration (CPE) for a given benchmark.
 	* - assets

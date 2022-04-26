@@ -10,6 +10,13 @@ This API endpoint allows for the retrieval and download of benchmark content in 
 	* - GET
 	  - Public
 
+Base URL
+--------
+
+::
+
+	https://sbp-api.cisecurity.org
+
 Endpoint
 --------
 

@@ -10,6 +10,13 @@ The “CIS-CAT Pro Assessor” endpoint allows SecureSuite members to obtain any
 	* - GET
 	  - SecureSuite Members Only
 
+Base URL
+--------
+
+::
+
+	https://sbp-api.cisecurity.org
+
 Endpoint
 --------
 

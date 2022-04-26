@@ -10,6 +10,13 @@ The “CIS-CAT Lite” endpoint allows both members and non-members to obtain an
 	* - GET
 	  - Public
 
+Base URL
+--------
+
+::
+
+	https://sbp-api.cisecurity.org
+
 Endpoint
 --------
 

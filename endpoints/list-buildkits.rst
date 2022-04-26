@@ -10,6 +10,13 @@ Publicly available, a request to this endpoint returns a JSON array of basic inf
 	* - GET
 	  - Public
 
+Base URL
+--------
+
+::
+
+	https://sbp-api.cisecurity.org
+
 Endpoint
 --------
 

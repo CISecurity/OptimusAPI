@@ -10,6 +10,13 @@ The body of this POST request includes the SecureSuite member's license key, and
 	* - POST
 	  - Public
 
+Base URL
+--------
+
+::
+
+	https://sbp-api.cisecurity.org
+
 Endpoint
 --------
 

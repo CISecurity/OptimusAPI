@@ -10,6 +10,13 @@ This API endpoint allows SecureSuite members to obtain any released remediation 
 	* - GET
 	  - SecureSuite Members Only
 
+Base URL
+--------
+
+::
+
+	https://sbp-api.cisecurity.org
+
 Endpoint
 --------
 

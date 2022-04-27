@@ -10,6 +10,13 @@ This API endpoint responds with the list of currently released and available CIS
 	* - GET
 	  - Public
 
+Base URL
+--------
+
+::
+
+	https://sbp-api.cisecurity.org
+
 Endpoint
 --------
 

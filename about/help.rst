@@ -1,5 +1,8 @@
+Help
+====
+
 Contact Us
-==========
+----------
 
 Join the `CIS Members : SecureSuite-API Discussions Community on WorkBench
 <https://workbench.cisecurity.org/communities/152>`_.

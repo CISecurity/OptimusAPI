@@ -16,6 +16,8 @@ The "Contributing" section provides details on how you can contribute to the dev
 
 The "Terms of Use" section provides the terms of use policy.
 
+The "Help" section provides information on where to go for assistance using the API.
+
 
 
 .. toctree::
@@ -28,6 +30,7 @@ The "Terms of Use" section provides the terms of use policy.
    Contributing <about/contributing>
    Obtaining a SecureSuite License Key <about/license>
    Terms of Use <about/terms-of-use>
+   Help <about/help>
 
 .. toctree::
    :maxdepth: 1

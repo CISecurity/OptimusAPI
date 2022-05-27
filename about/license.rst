@@ -1,8 +1,8 @@
 Obtain SecureSuite API License Key
 ==================================
 
-To unlock full feature and content access for SecureSuite Member API, it is
-required to download and apply their organization’s SecureSuite license from CIS WorkBench: https://workbench.cisecurity.org.
+To unlock full features and content access for SecureSuite Member API, it is
+required to download and apply your organization’s SecureSuite license from `CIS WorkBench <https://workbench.cisecurity.org>`_.
 
 Obtain License Files
 --------------------

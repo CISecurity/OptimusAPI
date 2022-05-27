@@ -1,5 +1,8 @@
 SecureSuite Member License Verification
 =========================================================
+To unlock full feature and content access for SecureSuite Member API, it is
+required to download and apply their organization’s SecureSuite license from CIS WorkBench per these `instructions <https://optimusapi.readthedocs.io/en/stable/about/license/>`_.
+
 The body of this POST request includes the SecureSuite member's license key, and the backend function performs verification of the key, returning back to the caller a token (generated based on the license key) for future use. The token will be stored for future authorization purposes and to track a time limit for its usage.
 
 .. list-table::
@@ -27,7 +30,7 @@ Endpoint
 Request Payload/Parameters
 --------------------------
 
-The request body will contain the SecureSuite member license key, in either XML or JSON form.
+The request body will contain the SecureSuite member license key (example below), in either XML or JSON form.
 
 ::
 

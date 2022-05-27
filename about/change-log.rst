@@ -3,10 +3,14 @@ Change Log
 
 Review the Change Log below for the latest on the SecureSuite Member API.
 
+May 2022
+--------
+1. `Help section added <https://optimusapi.readthedocs.io/en/stable/about/help/>`_
+
 April 2022
 --------
 1. Intermediate Formats, JSON and YAML, now include embedded SCE scripts
-    - From the `Download Benchmarks Content endpoint <https://optimusapi.readthedocs.io/en/latest/endpoints/download-benchmark/>`_ you can download YAML or JSON translation of a given Benchmark. They now contain any relevant SCE files at the end of the file. SCE files are also included in SCAP and DATASTREAM download options.
+    - From the `Download Benchmarks Content endpoint <https://optimusapi.readthedocs.io/en/stable/endpoints/download-benchmark/>`_ you can download YAML or JSON translation of a given Benchmark. They now contain any relevant SCE files at the end of the file. SCE files are also included in SCAP and DATASTREAM download options.
 
 March 2022
 --------

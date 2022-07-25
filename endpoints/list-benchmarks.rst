@@ -1,9 +1,10 @@
 List Available Benchmarks
 =========================================================
 Publicly available, a request to this endpoint returns a JSON array of basic information for every published benchmark that is currently tracked by this API.
-Basic information includes Benchmark assessment status (``Manual`` or ``Automated``). 
- - ``Manual`` status indicates a prose only Benchmark that does not contain Artifacts. Only intermediate formats (JSON, YAML and XCCDF+AE) are available for ``Manual`` status Benchmarks.
- - ``Automated`` status indicates a Benchmark that contains at least one Artifact. Intermediate formats (JSON, YAML and XCCDF+AE), SCAP and DATASTREAM are available for ``Automated`` status Benchmarks.
+Basic information includes Benchmark assessment status (``Manual`` or ``Automated``).
+|
+  - ``Manual`` status indicates a prose only Benchmark that does not contain Artifacts. Only intermediate formats (JSON, YAML and XCCDF+AE) are available for ``Manual`` status Benchmarks.
+  - ``Automated`` status indicates a Benchmark that contains at least one Artifact. Intermediate formats (JSON, YAML and XCCDF+AE), SCAP and DATASTREAM are available for ``Automated`` status Benchmarks.
 
 .. list-table::
 	:header-rows: 1
@@ -53,31 +54,31 @@ Description/Fields
 .. list-table::
 	:header-rows: 1
 
-  * - Response Element 
+	* - Response Element 
 	  - Description
-  * - workbenchId
-	  - The unique identifier for a benchmark per CIS WorkBench. This ID can be used in subsequent requests to download benchmark content.
-  * - benchmarkTitle
+	* - workbenchId
+	  - The unique identifier for a benchmark per CIS WorkBench.  This ID can be used in subsequent requests to download benchmark content.
+	* - benchmarkTitle
 	  - The title of the published benchmark, e.g. "CIS Microsoft Windows 10 Enterprise Release 2004 Benchmark"
-  * - benchmarkVersion
+	* - benchmarkVersion
 	  - The release version of the published benchmark, e.g. “1.3.0”
-  * - benchmarkStatus
+	* - benchmarkStatus
 	  - The current benchmark status value and date it was applied
-  * - assessmentStatus
-	  - The benchmark assessment status value. Indicates whether the benchmark is Manual (prose-only, with no Artifacts) or Automated (contains at least one Artifact). Manual benchmark available formats include JSON, YAML, AND XCCDF+AE. Automated benchamrk available formats include JSON, YAML, XCCDF+AE, SCAP, and DATASTREAM. 
-  * - availableFormats
+	* - assessmentStatus
+	  - The benchmark assessment status value. Indicates whether the benchmark is Manual (prose-only, with no Artifacts) or Automated (contains at least one Artifact). Manual benchmark available formats include JSON, YAML, AND XCCDF+AE. Automated benchamrk available formats include JSON, YAML, XCCDF+AE, SCAP, and DATASTREAM.
+	* - availableFormats
 	  - A JSON array containing the available download formats, such as "SCAP", "YAML", "JSON", "XCCDFPLUSAE", and/or "DATASTREAM"
 	* - profile
 	  - The available profile(s) for any given benchmark.
 	* - platformId
 	  - The primary Common Platform Enumeration (CPE) for a given benchmark.
 	* - assets
-	  - All assets relevant for a given benchmark including the assetName and assetCpe (asset specific Common Platform Enumeration (CPE)).
+	  - All assets relevant for a given benchmark including the assetName and  assetCpe (asset specific Common Platform Enumeration (CPE)).
 	* - benchmarkUrl
 	  - The path to the benchmark in WorkBench.
 	* - ciscat
 	  - If the benchmark is supported for use with CIS-CAT Pro Assessor and the metadata is available, the applicable versions are listed here.
-
+  |
 Response Example
 ^^^^^^^^^^^^^^^^
 

@@ -1,10 +1,8 @@
 List Available Benchmarks
 =========================================================
 Publicly available, a request to this endpoint returns a JSON array of basic information for every published benchmark that is currently tracked by this API.
-
 Basic information includes Benchmark assessment status (``Manual`` or ``Automated``). 
  - ``Manual`` status indicates a prose only Benchmark that does not contain Artifacts. Only intermediate formats (JSON, YAML and XCCDF+AE) are available for ``Manual`` status Benchmarks.
-
  - ``Automated`` status indicates a Benchmark that contains at least one Artifact. Intermediate formats (JSON, YAML and XCCDF+AE), SCAP and DATASTREAM are available for ``Automated`` status Benchmarks.
 
 .. list-table::
@@ -66,10 +64,7 @@ Description/Fields
   * - benchmarkStatus
 	  - The current benchmark status value and date it was applied
   * - assessmentStatus
-	  - The benchmark assessment status value. 
-    - Indicates whether the benchmark is Manual (prose-only, with no Artifacts) or Automated (contains at least one Artifact). 
-    - Manual benchmark available formats include JSON, YAML, AND XCCDF+AE. 
-    - Automated benchamrk available formats include JSON, YAML, XCCDF+AE, SCAP, and DATASTREAM. 
+	  - The benchmark assessment status value. Indicates whether the benchmark is Manual (prose-only, with no Artifacts) or Automated (contains at least one Artifact). Manual benchmark available formats include JSON, YAML, AND XCCDF+AE. Automated benchamrk available formats include JSON, YAML, XCCDF+AE, SCAP, and DATASTREAM. 
   * - availableFormats
 	  - A JSON array containing the available download formats, such as "SCAP", "YAML", "JSON", "XCCDFPLUSAE", and/or "DATASTREAM"
 	* - profile

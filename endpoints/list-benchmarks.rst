@@ -55,18 +55,21 @@ Description/Fields
 .. list-table::
 	:header-rows: 1
 
-	* - Response Element 
+  * - Response Element 
 	  - Description
-	* - workbenchId
+  * - workbenchId
 	  - The unique identifier for a benchmark per CIS WorkBench. This ID can be used in subsequent requests to download benchmark content.
-	* - benchmarkTitle
+  * - benchmarkTitle
 	  - The title of the published benchmark, e.g. "CIS Microsoft Windows 10 Enterprise Release 2004 Benchmark"
-	* - benchmarkVersion
+  * - benchmarkVersion
 	  - The release version of the published benchmark, e.g. “1.3.0”
-	* - benchmarkStatus
+  * - benchmarkStatus
 	  - The current benchmark status value and date it was applied
-	* - assessmentStatus
-	  - The benchmark assessment status value. Indicates whether the benchmark is Manual (prose-only, with no Artifacts) or Automated (contains at least one Artifact). Manual benchmark available formats include JSON, YAML, AND XCCDF+AE. Automated benchamrk available formats include JSON, YAML, XCCDF+AE, SCAP, and DATASTREAM. 
+  * - assessmentStatus
+	  - The benchmark assessment status value. 
+    - Indicates whether the benchmark is Manual (prose-only, with no Artifacts) or Automated (contains at least one Artifact). 
+    - Manual benchmark available formats include JSON, YAML, AND XCCDF+AE. 
+    - Automated benchamrk available formats include JSON, YAML, XCCDF+AE, SCAP, and DATASTREAM. 
   * - availableFormats
 	  - A JSON array containing the available download formats, such as "SCAP", "YAML", "JSON", "XCCDFPLUSAE", and/or "DATASTREAM"
 	* - profile

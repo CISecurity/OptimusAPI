@@ -2,9 +2,8 @@ List Available Benchmarks
 =========================================================
 Publicly available, a request to this endpoint returns a JSON array of basic information for every published benchmark that is currently tracked by this API.
 Basic information includes Benchmark assessment status (``Manual`` or ``Automated``).
-|
-  - ``Manual`` status indicates a prose only Benchmark that does not contain Artifacts. Only intermediate formats (JSON, YAML and XCCDF+AE) are available for ``Manual`` status Benchmarks.
-  - ``Automated`` status indicates a Benchmark that contains at least one Artifact. Intermediate formats (JSON, YAML and XCCDF+AE), SCAP and DATASTREAM are available for ``Automated`` status Benchmarks.
+- ``Manual`` status indicates a prose only Benchmark that does not contain Artifacts. Only intermediate formats (JSON, YAML and XCCDF+AE) are available for ``Manual`` status Benchmarks.
+- ``Automated`` status indicates a Benchmark that contains at least one Artifact. Intermediate formats (JSON, YAML and XCCDF+AE), SCAP and DATASTREAM are available for ``Automated`` status Benchmarks.
 
 .. list-table::
 	:header-rows: 1
@@ -78,7 +77,7 @@ Description/Fields
 	  - The path to the benchmark in WorkBench.
 	* - ciscat
 	  - If the benchmark is supported for use with CIS-CAT Pro Assessor and the metadata is available, the applicable versions are listed here.
-  |
+
 Response Example
 ^^^^^^^^^^^^^^^^
 

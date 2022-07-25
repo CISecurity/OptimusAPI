@@ -67,8 +67,8 @@ Description/Fields
 	  - The current benchmark status value and date it was applied
 	* - assessmentStatus
 	  - The benchmark assessment status value. Indicates whether the benchmark is Manual (prose-only, with no Artifacts) or Automated (contains at least one Artifact). 
-      - Manual benchmark available formats include JSON, YAML, AND XCCDF+AE. 
-      - Automated benchamrk available formats include JSON, YAML, XCCDF+AE, SCAP, and DATASTREAM. 
+      * Manual benchmark available formats include JSON, YAML, AND XCCDF+AE. 
+      * Automated benchamrk available formats include JSON, YAML, XCCDF+AE, SCAP, and DATASTREAM. 
   * - availableFormats
 	  - A JSON array containing the available download formats, such as "SCAP", "YAML", "JSON", "XCCDFPLUSAE", and/or "DATASTREAM"
 	* - profile

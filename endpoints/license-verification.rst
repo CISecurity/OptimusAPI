@@ -38,7 +38,7 @@ The request body will contain the SecureSuite member license key (example below)
 	    <uuid>d2e343b8-ca58-432b-af1d-336ba365ef07</uuid>
 	    <license_key>
 	        --- START CIS LICENSE KEY ---
-	        ABCD123iOiJqd3QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJDSVMgTElDRU5TRSBLRVkiLCJqdGkiOiJ
+	        ABCD123-Not-valid-iOiJqd3QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJDSVMgTElDRU5TRSBLRVki
 	        lZmUzNDNiOC1jYTU4LTQzMmItYWYxZC0zMzZiYTM2NWVmMDciLCJpYXQiOjE1ODEzMTA4MDAsImV4cCI
 	        6MTY3NjAwNTIwMCwibmFtZSI6IkNJUyIsImRvbWFpbiI6ImNpc2VjdXJpdHkub3JnIn0.EW1DFihmKx0
 	        i8fV_jRrTVhV1nS1YWXfbso_2w8-sL-P6lx4vPIPK220wj7WvX385tIA4fKWxehEi70zVSjUEsTuUO35

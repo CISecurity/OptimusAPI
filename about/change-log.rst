@@ -5,8 +5,9 @@ Review the Change Log below for the latest on the SecureSuite Member API.
 
 July 2022
 --------
-1. Prose Only Benchmarks can be added to the Benchmarks API endpoint for download as an intermediate format. Note Prose Only Benchmarks do not contain Artifacts or Automated Assessment Content (AAC).
-2. Prose Only Benchmarks are tagged as “Manual” and Benchmarks that contain AAC are marked “Automated”.
+1. Prose Only Benchmarks can be added to the Benchmarks API endpoint for download as an intermediate format
+    - Note Prose Only Benchmarks do not contain Artifacts or Automated Assessment Content (AAC).
+2. Prose Only Benchmarks are tagged as “Manual” and Benchmarks that contain AAC are marked “Automated”
     - See `List Available Benchmarks Endpoint <https://optimusapi.readthedocs.io/en/stable/endpoints/list-benchmarks/>`_
     - Are you looking for a Prose Only Benchmark that isn't currently listed? `Let us know! <https://www.cisecurity.org/support>`_
 
@@ -24,7 +25,7 @@ April 2022
 March 2022
 --------
 1. Endpoint for Build Kits added
-    - Upon request to the endpoint, any specified Build Kit can be downloaded directly from the API. The Build Kits included are from the list currently available to download in WorkBench
+    - Upon request to the endpoint, any specified Build Kit can be downloaded directly from the API. The Build Kits included are from the list currently available to download in WorkBench.
     - See 'List Available Build Kits' documentation here: `List Available Build Kits <https://optimusapi.readthedocs.io/en/stable/endpoints/list-buildkits/>`_.
     - See 'Download Build Kits' documentation here: `Download Build Kits <https://optimusapi.readthedocs.io/en/stable/endpoints/download-buildkit/>`_.
     - For more information on Build Kits, go here: `CIS Build Kits FAQ <https://www.cisecurity.org/cis-securesuite/cis-securesuite-build-kit-content/build-kits-faq>`_.

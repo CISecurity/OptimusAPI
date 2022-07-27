@@ -7,8 +7,8 @@ July 2022
 --------
 1. Prose Only Benchmarks can be added to the Benchmarks API endpoint for download as an intermediate format. Note prose only Benchmarks do not contain Artifacts or Automated Assessment Content.
 2. Prose Only Benchmarks are tagged as “Manual” and Benchmarks that contain AAC are marked “Automated”.
-See `List Available Benchmarks Endpoint <https://optimusapi.readthedocs.io/en/stable/endpoints/list-benchmarks/>`_
-Are you looking for a prose only benchmark that isn't currently listed? `Let us know! <https://www.cisecurity.org/support>`_.
+    - See `List Available Benchmarks Endpoint <https://optimusapi.readthedocs.io/en/stable/endpoints/list-benchmarks/>`_
+    - Are you looking for a prose only benchmark that isn't currently listed? `Let us know! <https://www.cisecurity.org/support>`_.
 
 May 2022
 --------

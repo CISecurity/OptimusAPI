@@ -18,6 +18,10 @@ CIS offers programmatic access to Benchmark export files via the SecureSuite API
 
 **What files are available?**
 
+*PDF* (Benchmarks in a human readable format)
+
+`See Download PDFs page <https://optimusapi.readthedocs.io/en/stable/endpoints/download-pdf/>`_
+
 *SCAP* (Only available for Benchmarks that include automated assessment content)
 
 #. SCAP XCCDF + OVAL (.zip) - SCAP bundle including XCCDF, OVAL, CPE, SCE and DataStreams

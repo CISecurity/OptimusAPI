@@ -14,11 +14,12 @@ Obtain License Files
 	#. **NOTE**: Ensure that java script is unblocked on your browser if you do not see that the file has downloaded.
 #. Navigate to the downloaded files and extract the contents
 
-Obtain a Bearer Token for Use With the API
+Obtain a Bearer Token for Use with the API
 ------------------------------------------
 #. Once you've retrieved your organization's license files, described above, locate the license.xml file. This is your license key
 #. Take the full contents of this file and place it into the body of a POST request to the /license API endpoint
 #. Save the token returned and use this to authenticate when downloading resources from the API
+
 `Go here for more details on the /license API endpoint <https://optimusapi.readthedocs.io/en/stable/endpoints/license-verification/>`_
 
 License Renewal

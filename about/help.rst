@@ -23,7 +23,7 @@ CIS offers programmatic access to Benchmark export files via the SecureSuite API
 #. SCAP XCCDF + OVAL (.zip) - SCAP bundle including XCCDF, OVAL, CPE, SCE and DataStreams
 #. DataStream (.xml) - SCAP standard collection format
 
-*Intermediate Formats* (Benchmark data in a format intended to be parsed and converted more easily than SCAP)
+*Intermediate Formats* (Benchmark data in a machine readable format intended to be more easily converted than SCAP)
 
 #. XCCDF+AE Intermediate Format (.xml) – XCCDF, including any available Artifact Expressions (AE)
 #. YAML (.yaml)  -  XCCDF+AE in YAML format
@@ -55,6 +55,7 @@ CIS-CAT Pro Assessor typically scans in just a few minutes, saving users hours o
 Both CIS-CAT Pro and CIS-CAT Lite are available programmatically via the API
 
 `See Download CIS-CAT Pro Assessor page <https://optimusapi.readthedocs.io/en/stable/endpoints/cis-cat-pro/>`_
+
 `See Download CIS-CAT Lite page <https://optimusapi.readthedocs.io/en/stable/endpoints/cis-cat-lite/>`_
 
 Remediation Kits

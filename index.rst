@@ -16,7 +16,7 @@ The "Contributing" section provides details on how you can contribute to the dev
 
 The "Terms of Use" section provides the terms of use policy.
 
-The "Help" section provides information on where to go for assistance using the API.
+The "Help" section provides helpful information as well as where to go for assistance using the API.
 
 
 

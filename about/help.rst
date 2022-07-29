@@ -16,13 +16,14 @@ Developed by a global community of cybersecurity professionals, CIS Benchmarks a
 
 CIS offers programmatic access to Benchmark export files via the SecureSuite API
 
-What files are available?
-SCAP (Only available for Benchmarks that include automated assessment content)
+**What files are available?**
+
+*SCAP* (Only available for Benchmarks that include automated assessment content)
 
 #. SCAP XCCDF + OVAL (.zip) - SCAP bundle including XCCDF, OVAL, CPE, SCE and DataStreams
 #. DataStream (.xml) - SCAP standard collection format
 
-Intermediate Formats (Benchmark data in a format intended to be parsed and converted more easily than SCAP)
+*Intermediate Formats* (Benchmark data in a format intended to be parsed and converted more easily than SCAP)
 
 #. XCCDF+AE Intermediate Format (.xml) – XCCDF, including any available Artifact Expressions (AE)
 #. YAML (.yaml)  -  XCCDF+AE in YAML format
@@ -30,7 +31,7 @@ Intermediate Formats (Benchmark data in a format intended to be parsed and conve
 
 `See Download Benchmarks Content page <https://optimusapi.readthedocs.io/en/stable/endpoints/download-benchmark/>`_
 
-What files are included in the SCAP bundle?
+**What files are included in the SCAP bundle?**
 
 **XCCDF.xml** - The XCCDF acronym stands for Extensible Configuration Checklist Description Format. As the name suggests, the language is used to describe security checklists. These files contain benchmark recommendations
 

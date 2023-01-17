@@ -15,14 +15,14 @@ Base URL
 
 ::
 
-	https://sbp-api.cisecurity.org
+	https://workbench.cisecurity.org/api/vendor/v1
 
 Endpoint
 --------
 
 ::
 
-	/buildkits/{workbenchId}
+	/buildkit/{workbenchId}
 
 Request Payload/Parameters
 --------------------------

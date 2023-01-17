@@ -15,7 +15,7 @@ Base URL
 
 ::
 
-	https://sbp-api.cisecurity.org
+	https://workbench.cisecurity.org/api/vendor/v1
 
 Endpoint
 --------
@@ -68,7 +68,7 @@ The response payload is simply a JSON array of strings representing the versions
 	* - name
 	  - The name of the CIS-CAT release
 	* - path
-	  - The path, relative to the base URL (https://sbp-api.cisecurity.org) which can be used to download the specific version
+	  - The path, relative to the base URL (https://workbench.cisecurity.org/api/vendor/v1) which can be used to download the specific version
 
 Response Example
 ^^^^^^^^^^^^^^^^

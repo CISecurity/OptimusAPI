@@ -8,7 +8,7 @@ Getting Started
 ------------------------
 
 Refer to the documentation for each API endpoint to learn more about request types, expected request payloads, authorization requirements, and response objects.  If an endpoint is indicated as "SecureSuite Member Only", clients are required to first validate their SecureSuite license key in order to obtain an authorization token.  The retrieved token may then be provided to ensure authorization to protected resources.
-To submit a request to the API, use the base URL 'https://sbp-api.cisecurity.org/'.
+To submit a request to the API, use the base URL 'https://workbench.cisecurity.org/api/vendor/v1/'.
 
 See "Obtaining a SecureSuite License Key" to find out how to obtain your member organization's license key.
 

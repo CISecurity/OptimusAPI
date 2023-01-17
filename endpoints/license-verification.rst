@@ -3,7 +3,7 @@ SecureSuite Member License Verification
 To unlock full features and content access for SecureSuite Member API, it is
 required to download and apply your organization’s SecureSuite license from CIS WorkBench per these `instructions <https://optimusapi.readthedocs.io/en/stable/about/license/>`_.
 
-The body of this POST request includes the SecureSuite member's license key, and the backend function performs verification of the key, returning back to the caller a token (generated based on the license key) for future use. The token will be stored for future authorization purposes and to track a time limit for its usage.
+The body of this POST request includes the SecureSuite member's license key, and a token will be returned after verification. The expiration time on the token is 20 minutes. Members can reacquire a new token at anytime.
 
 .. list-table::
 	:header-rows: 1
@@ -18,7 +18,7 @@ Base URL
 
 ::
 
-	https://sbp-api.cisecurity.org
+	https://workbench.cisecurity.org/api/vendor/v1
 
 Endpoint
 --------
@@ -104,14 +104,14 @@ Description/Fields
 	* - **Field**
 	  - **Description**
 	* - token
-	  - The token that can be utilized in future, authenticated interactions with the API.
+	  - The token that can be utilized for authenticated interactions with the API. The expiration time on the token is 20 minutes. Members can reacquire a new token at anytime.
 
 Response Example
 ^^^^^^^^^^^^^^^^
 ::
 
 	{
-		"token": "7b68c544503bc43458f747ebff4f2bb61358ff7f787f254e39c4a842cefed748"
+		"token": "2|9TIyTvlwgFikjIfCr26vFpAt1C7R7JjyVqW0FJvs"
 	}
 
 

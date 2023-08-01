@@ -1,4 +1,4 @@
-List Available Benchmarks
+Benchmark Information
 =========================================================
 Publicly available, a request to this endpoint returns a JSON array of basic information for a specific published benchmark that is currently tracked by this API.
 Basic information includes Benchmark assessment status (``Manual`` or ``Automated``).

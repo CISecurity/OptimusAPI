@@ -124,7 +124,7 @@ Response Example
             "primary": "true"
         }
     ],
-    "benchmarksUrl": "https://workbench.cisecurity.org/benchmarks/1234",
+    "benchmarkUrl": "https://workbench.cisecurity.org/benchmarks/1234",
     "ciscat": {
         "ciscatPro": {
             "proAssessmentStatus": "",

@@ -180,7 +180,7 @@ Response Example
                     "primary": "true"
                 }
             ],
-            "benchmarksUrl": "https://workbench.cisecurity.org/benchmarks/5678",
+            "benchmarkUrl": "https://workbench.cisecurity.org/benchmarks/5678",
             "ciscat": {
                 "ciscatPro": {
                     "proAssessmentStatus": "",

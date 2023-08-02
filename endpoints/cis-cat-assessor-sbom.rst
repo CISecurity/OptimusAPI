@@ -29,11 +29,9 @@ Request Payload/Parameters
 
 Request Headers
 ^^^^^^^^^^^^^^^
-None
 
 URL Parameters
 ^^^^^^^^^^^^^^
-None
 
 Response Payload
 ----------------

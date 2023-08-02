@@ -75,7 +75,7 @@ Description/Fields
 	  - The primary Common Platform Enumeration (CPE) for a given benchmark.
 	* - assets
 	  - All assets relevant for a given benchmark including the assetName and  assetCpe (asset specific Common Platform Enumeration (CPE)).
-	* - benchmarksUrl
+	* - benchmarkUrl
 	  - The path to the benchmark in WorkBench.
 	* - ciscat
 	  - If the benchmark is supported for use with CIS-CAT Pro Assessor and the metadata is available, the applicable versions are listed here.
@@ -121,7 +121,7 @@ Response Example
                     "primary": "true"
                 }
             ],
-            "benchmarksUrl": "https://workbench.cisecurity.org/benchmarks/1234",
+            "benchmarkUrl": "https://workbench.cisecurity.org/benchmarks/1234",
             "ciscat": {
                 "ciscatPro": {
                     "proAssessmentStatus": "",

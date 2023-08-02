@@ -38,7 +38,6 @@ The "Help" section provides helpful information as well as where to go for assis
    :name: api-endpoints
 
    License Verification <endpoints/license-verification>
-   Token Validation <endpoints/token-validation>
    List Available Benchmarks <endpoints/list-benchmarks>
    Benchmark Information <endpoints/benchmark>
    Download Benchmarks Content <endpoints/download-benchmark>

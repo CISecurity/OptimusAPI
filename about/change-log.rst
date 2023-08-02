@@ -3,20 +3,6 @@ Change Log
 
 Review the Change Log below for the latest on the SecureSuite Member API.
 
-August 2023
---------
-1. Endpoint added to download CIS-CAT Assessor SBOM <https://optimusapi.readthedocs.io/en/stable/endpoints/cis-cat-assessor-sbom/>`_
-
-July 2023
---------
-1. Endpoint to check if token is still valid <https://optimusapi.readthedocs.io/en/stable/endpoints/token-validation/>`_
-2. Endpoint to individual benchmark information <https://optimusapi.readthedocs.io/en/stable/endpoints/benchmark/>`_
-
-January 2023
---------
-1. Base URL updated to new API location 
-2. API token format and duration updated <https://optimusapi.readthedocs.io/en/stable/endpoints/license-verification/>`_
-
 July 2022
 --------
 1. Prose Only Benchmarks can be added to the Benchmarks API endpoint for download as an intermediate format

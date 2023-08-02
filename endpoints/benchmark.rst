@@ -91,57 +91,57 @@ Response Example
 
 ::
 
-    {
-        "Benchmark": {
-            "workbenchId": "1234",
-            "benchmarkId": "xccdf_org.cisecurity.benchmarks_benchmark_1.0.0_CIS_Microsoft_Windows_Server_2012_Benchmark",
-            "benchmarkTitle": "CIS Microsoft Windows Server 2012 Benchmark",
-            "benchmarkVersion": "1.0.0",
-            "benchmarkStatus": {
-                "status": "accepted",
-                "statusDate": "02/22/2013"
+{
+    "Benchmark": {
+	    "workbenchId": "1234",
+	    "benchmarkId": "xccdf_org.cisecurity.benchmarks_benchmark_1.0.0_CIS_Microsoft_Windows_Server_2012_Benchmark",
+	    "benchmarkTitle": "CIS Microsoft Windows Server 2012 Benchmark",
+	    "benchmarkVersion": "1.0.0",
+	    "benchmarkStatus": {
+            "status": "accepted",
+            "statusDate": "02/22/2013"
+	    },
+	    "assessmentStatus": "Manual",
+	    "availableFormats": [
+            "XCCDF+AE",
+            "JSON",
+            "YAML"
+	    ],
+	    "profiles": [
+            {
+                "profileId": "xccdf_org.cisecurity.benchmarks_profile_Level_1_-_Domain_Controller",
+                "profileTitle": "Level 1 - Domain Controller"
             },
-            "assessmentStatus": "Manual",
-            "availableFormats": [
-                "XCCDF+AE",
-                "JSON",
-                "YAML"
-            ],
-            "profiles": [
-                {
-                    "profileId": "xccdf_org.cisecurity.benchmarks_profile_Level_1_-_Domain_Controller",
-                    "profileTitle": "Level 1 - Domain Controller"
-                },
-                {
-                    "profileId": "xccdf_org.cisecurity.benchmarks_profile_Level_1_-_Member_Server",
-                    "profileTitle": "Level 1 - Member Server"
-                }
-            ],
-            "platformId": "cpe:/o:microsoft:windows_server_2012",
-            "assets": [
-                {
-                    "assetName": "Microsoft Windows Server 2012",
-                    "assetCpe": "cpe:/o:microsoft:windows_server_2012",
-                    "primary": "true"
-                }
-            ],
-            "benchmarksUrl": "https://workbench.cisecurity.org/benchmarks/1234",
-            "ciscat": {
-                "ciscatPro": {
-                    "proAssessmentStatus": "",
-                    "proVersions": [
-
-                    ]
-                },
-                "ciscatLite": {
-                    "liteAssessmentStatus": "",
-                    "liteVersions": [
-
-                    ]
-                }
+            {
+                "profileId": "xccdf_org.cisecurity.benchmarks_profile_Level_1_-_Member_Server",
+                "profileTitle": "Level 1 - Member Server"
             }
-        }
+	    ],
+	    "platformId": "cpe:/o:microsoft:windows_server_2012",
+	    "assets": [
+            {
+                "assetName": "Microsoft Windows Server 2012",
+                "assetCpe": "cpe:/o:microsoft:windows_server_2012",
+                "primary": "true"
+            }
+	    ],
+	    "benchmarksUrl": "https://workbench.cisecurity.org/benchmarks/1234",
+	    "ciscat": {
+            "ciscatPro": {
+                "proAssessmentStatus": "",
+                "proVersions": [
+
+                ]
+            },
+            "ciscatLite": {
+                "liteAssessmentStatus": "",
+                "liteVersions": [
+
+                ]
+            }
+	    }
     }
+}
 
 
 .. history

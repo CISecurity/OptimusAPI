@@ -111,7 +111,7 @@ Response Example
 ::
 
 	{
-		"token": "1234|7b68c544113bc4notvalid358ffd4ba7f254e39c4a842cefed748"
+		"token": "2|9TIyTvlwgFikjIfCr26vFpAt1C7R7JjyVqW0FJvs"
 	}
 
 

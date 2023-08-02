@@ -37,7 +37,7 @@ Request Headers
 	* - Header Name
 	  - Description
 	* - X-SecureSuite-Token
-	  - The token received from a successful license key verification, e.g., :code:`1234|7b68c544113bc4notvalid358ffd4ba7f254e39c4a842cefed748`
+	  - The token received from a successful license key verification, e.g., :code:`7b68c544113bc43458f747ebff4f2bb61358ffd4ba7f254e39c4a842cefed748`
 
 URL Parameters
 ^^^^^^^^^^^^^^

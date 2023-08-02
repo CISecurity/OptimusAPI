@@ -1,12 +1,12 @@
-Download Build Kits
-==================
-This API endpoint allows SecureSuite members to obtain any released remediation content, also known as CIS Build Kits. For more information on Build Kits, go here: `CIS Build Kits FAQ <https://www.cisecurity.org/cis-securesuite/cis-securesuite-build-kit-content/build-kits-faq>`_.
+API Token Validation
+=========================================================
+This endpoint allows checking the validation of a token without accessing any data on the server
 
 .. list-table::
 	:header-rows: 1
 
-	* - Request Type
-	  - Visibility
+	* - **Request Type**
+	  - **Visibility**
 	* - GET
 	  - SecureSuite Members Only
 
@@ -22,12 +22,11 @@ Endpoint
 
 ::
 
-	/buildkit/{workbenchId}
+	/token/check
 
 Request Payload/Parameters
 --------------------------
 In order to provide download authorization, members must first authenticate their license key using the :code:`/license` endpoint.  The response from that endpoint is an authorization token.
-
 
 Request Headers
 ^^^^^^^^^^^^^^^
@@ -41,35 +40,46 @@ Request Headers
 
 URL Parameters
 ^^^^^^^^^^^^^^
-.. list-table::
-	:header-rows: 1
-
-	* - URL Parameter
-	  - Description
-	* - workbenchId
-	  - The unique identifier for a specific Build Kit as stored in CIS WorkBench.
+None
 
 Response Payload
 ----------------
-
+The response from the license verification endpoint will, upon successful verification, provide the receiver with an authorization token that can be used in subsequent member-only requests.
 
 Media Type
 ^^^^^^^^^^
-
 ::
 
-	/application/zip
-
+	application/json
 
 Description/Fields
 ^^^^^^^^^^^^^^^^^^
-The response payload will contain a zip bundle encapsulating the Build Kit content.
+.. list-table::
+
+	* - **Field**
+	  - **Description**
+	* - Status
+	  - Token Validation Check Successful
+
+.. list-table::
+
+	* - **Field**
+	  - **Description**
+	* - Error
+	  - Invalid or expired security token.
 
 Response Example
 ^^^^^^^^^^^^^^^^
-None
+::
 
+	{
+		"status": "Token Validation Check Successful."
+	}
 
+::
+	{
+		"error": "Invalid or expired security token."
+	}
 
 .. history
 .. authors

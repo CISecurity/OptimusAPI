@@ -38,7 +38,9 @@ The "Help" section provides helpful information as well as where to go for assis
    :name: api-endpoints
 
    License Verification <endpoints/license-verification>
+   Token Validation <endpoints/token-validation>
    List Available Benchmarks <endpoints/list-benchmarks>
+   Benchmark Information <endpoints/benchmark>
    Download Benchmarks Content <endpoints/download-benchmark>
    List Available Build Kits <endpoints/list-buildkits>
    Download Build Kits <endpoints/download-buildkit>
@@ -49,3 +51,4 @@ The "Help" section provides helpful information as well as where to go for assis
    Download CIS-CAT Pro Assessor Latest Version <endpoints/cis-cat-pro-latest>
    Download CIS-CAT Lite <endpoints/cis-cat-lite>
    Download CIS-CAT Lite Latest Version <endpoints/cis-cat-lite-latest>
+   Download CIS-CAT Assessor and Lite SBOM <endpoints/cis-cat-assessor-sbom>
